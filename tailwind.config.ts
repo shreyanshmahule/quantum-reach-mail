@@ -47,6 +47,22 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        // Quantum-specific colors
+        quantum: {
+          secure: "hsl(var(--quantum-secure))",
+          "secure-foreground": "hsl(var(--quantum-secure-foreground))",
+          aes: "hsl(var(--quantum-aes))",
+          "aes-foreground": "hsl(var(--quantum-aes-foreground))",
+          none: "hsl(var(--quantum-none))",
+          "none-foreground": "hsl(var(--quantum-none-foreground))",
+        },
+        // Email-specific colors
+        email: {
+          unread: "hsl(var(--email-unread))",
+          read: "hsl(var(--email-read))",
+          selected: "hsl(var(--email-selected))",
+          hover: "hsl(var(--email-hover))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
